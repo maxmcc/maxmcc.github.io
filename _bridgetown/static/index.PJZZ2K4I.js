@@ -1,2 +1,2 @@
 (()=>{console.info("Bridgetown is loaded!");})();
-//# sourceMappingURL=/_bridgetown/static/index.PJZZ2K4I.js.map
+//# sourceMappingURL=/website-2022/_bridgetown/static/index.PJZZ2K4I.js.map
