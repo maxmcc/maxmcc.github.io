@@ -24,5 +24,5 @@ organizations.
 
 You can get in touch with me by [email](mailto:hello@maxmcc.com) or on
 [Twitter](https://twitter.com/_maxmcc/). If you’d like, you can also download a copy of [my
-résumé](https://maxmcc.com/McCarthy-Resume-201805.pdf), or check out some of my software projects on
+résumé](/assets/McCarthy-Resume-201805.pdf), or check out some of my software projects on
 [GitHub](https://github.com/maxmcc/).
