@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="prose prose-xl prose-slate dark:prose-invert">
+    <h1>Blog</h1>
+</div>
+<ul>
+    {% for post in collections.posts.resources %}
+        <li class="my-8">
+            <a href="{{ post.relative_url }}">
+            <div>
+                {{ post.date | date: "%e %b %Y" }}
+            </div>
+            <div class="text-xl">{{ post.title }}</div>
+
+            <p>
+                {{ post.content | split: "</p>" | first | strip_html }}
+            </p>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

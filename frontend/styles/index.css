@@ -6,3 +6,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --MONO: 0;
+    --CASL: 0.5;
+    --slnt: 0;
+    --CRSV: 0;
+}
+
+* {
+    font-variation-settings:
+        "MONO" var(--MONO),
+        "CASL" var(--CASL),
+        "slnt" var(--slnt),
+        "CRSV" var(--CRSV)
+    ;
+}
+
+@layer utilities {
+    .font-mono {
+        --MONO: 1;
+    }
+}
+
+.highlight {
+    --MONO: 1;
+}
+
+body {
+    background-image: url("/assets/images/topography.svg");
+    background-blend-mode: luminosity;
+}

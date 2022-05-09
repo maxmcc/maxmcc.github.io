@@ -3,11 +3,10 @@
     <head>
         {% render "head", metadata: site.metadata, title: page.title %}
     </head>
-    <body>
-        <main class="container mx-auto my-8">
-            <article class="px-4 prose">
-                {{ content }}
-            </article>
+    <body class="bg-white dark:bg-slate-900 dark:text-white">
+        {% render "navbar" %}
+        <main class="max-w-screen-lg mx-auto my-8">
+            {{ content }}
         </main>
     </body>
 </html>

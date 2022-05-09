@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="grid grid-cols-4">
+    <div>&larr; Blog</div>
+    <div class="prose prose-lg prose-slate dark:prose-invert col-start-2 col-end-4">
+        <h1>{{ resource.title }}</h1>
+    </div>
+</section>
+
+<div class="grid grid-cols-4 mt-16">
+    <aside class="col-start-1 col-end-2">
+        <dl>
+            <dt class="uppercase tracking-wider opacity-50 text-xs">Published</dt>
+            <dd class="mb-4">{{ resource.date | date: "%e %b %Y" }}</dd>
+
+            {% if resource.updated %}
+                <dt class="uppercase tracking-wider opacity-50 text-xs">Last Updated</dt>
+                <dd class="">{{ resource.updated | date: "%e %b %Y" }}</dd>
+            {% endif %}
+        </dl>
+    </aside>
+
+    <article class="col-start-2 col-end-5 prose prose-xl prose-slate dark:prose-invert">
+        {{ content }}
+    </article>
+</div>
