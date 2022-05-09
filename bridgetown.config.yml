@@ -8,11 +8,6 @@
 #
 # For reloadable site metadata like title, SEO description, social media
 # handles, etc., take a look at `src/_data/site_metadata.yml`
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 
 url: "https://maxmcc.com"
 
