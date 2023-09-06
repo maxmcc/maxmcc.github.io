@@ -22,8 +22,7 @@ programming and program design. I also helped found [Hack4Impact](https://hack4i
 student group and 501&#8288;(c)&#8288;(3) that designs and builds software for nonprofit
 organizations.
 
-You can get in touch with me by [email](mailto:{{ site.metadata.email }}) or on
-[Twitter](https://twitter.com/_maxmcc/), [Cohost](https://cohost.org/maxmcc), or <a rel="me"
+You can get in touch with me by [email](mailto:{{ site.metadata.email }}) or on <a rel="me"
 href="https://sfba.social/@maxmcc">Mastodon</a>. If you’d like, you can also download a copy of [my
 résumé](/assets/McCarthy-Resume-201805.pdf), or check out some of my software projects on
 [GitHub](https://github.com/maxmcc/).
