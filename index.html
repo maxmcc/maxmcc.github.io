@@ -11,13 +11,14 @@
 <meta name="description" content="Max McCarthy is a software designer and engineer at Apple." />
 <meta name="keywords" content="max,mccarthy,maxmcc,software,design,penn,apple" />
 
-<link rel="stylesheet" href="/_bridgetown/static/index.2FZ5AGVF.css" />
-<script src="/_bridgetown/static/index.CIWQEK2N.js" defer></script>
+<link rel="stylesheet" href="/_bridgetown/static/index.W3EXBDJI.css" />
+<script src="/_bridgetown/static/index.LGMVJEX6.js" defer></script>
 
 <script type="module">let lastmod = 0
 function startReloadConnection() {
   const evtSource = new EventSource("/_bridgetown/live_reload")
   evtSource.onmessage = event => {
+    if (document.querySelector("#bridgetown-build-error")) document.querySelector("#bridgetown-build-error").close()
     if (event.data == "reloaded!") {
       location.reload()
     } else {
@@ -29,6 +30,23 @@ function startReloadConnection() {
       }
     }
   }
+  evtSource.addEventListener("builderror", event => {
+    let dialog = document.querySelector("#bridgetown-build-error")
+    if (!dialog) {
+      dialog = document.createElement("dialog")
+      dialog.id = "bridgetown-build-error"
+      dialog.style.borderColor = "red"
+      dialog.style.fontSize = "110%"
+      dialog.innerHTML = `
+        <p style="color:red">There was an error when building the site:</p>
+        <output><pre></pre></output>
+        <p><small>Check your Bridgetown logs for further details.</small></p>
+      `
+      document.body.appendChild(dialog)
+      dialog.showModal()
+    }
+    dialog.querySelector("pre").textContent = JSON.parse(event.data)
+  })
   evtSource.onerror = event => {
     if (evtSource.readyState === 2) {
       // reconnect with new object
@@ -67,8 +85,7 @@ programming and program design. I also helped found <a href="https://hack4impact
 student group and 501⁠(c)⁠(3) that designs and builds software for nonprofit
 organizations.</p>
 
-<p>You can get in touch with me by <a href="mailto:hello@maxmcc.com">email</a> or on
-<a href="https://twitter.com/_maxmcc/">Twitter</a>, <a href="https://cohost.org/maxmcc">Cohost</a>, or <a rel="me" href="https://sfba.social/@maxmcc">Mastodon</a>. If you’d like, you can also download a copy of <a href="/assets/McCarthy-Resume-201805.pdf">my
+<p>You can get in touch with me by <a href="mailto:hello@maxmcc.com">email</a> or on <a rel="me" href="https://sfba.social/@maxmcc">Mastodon</a>. If you’d like, you can also download a copy of <a href="/assets/McCarthy-Resume-201805.pdf">my
 résumé</a>, or check out some of my software projects on
 <a href="https://github.com/maxmcc/">GitHub</a>.</p>
 
