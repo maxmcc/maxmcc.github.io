@@ -3,26 +3,37 @@ layout: default
 ---
 
 # Max McCarthy
-{: .text-base }
+{: .text-lg .font-semibold .lg:mb-16 }
 
-I’m a software designer and developer who thinks we deserve better from our computers. I strive to
-build systems that respect human attention and agency, and that make computing more useable for
-everybody.
+I’m a software designer and developer. I currently work at Apple on interface and interaction
+prototyping for future computing products. You can learn more about [prototyping at Apple][paa] in
+this interview with a former colleague.
 
-I currently work at Apple, helping to assess the potential of novel input technologies and
-interaction models. I come up with ideas for new user interfaces and develop interactive prototypes
-to try them out. Throughout the design process, I evaluate my work against high standards for ease
-of use, logical consistency, and accessibility.
+Much of my work isn’t yet public &mdash; or maybe never will be: somebody has to work on the
+[thousand no’s for every yes][tnfey]. Among products Apple _has_ shipped, I’ve contributed to
+interaction prototypes for [AirTag] in the FindMy app, [gestures on Apple Pencil][pencil], and the
+iPhone 16 [Camera Control][cc].
 
-I graduated from the University of Pennsylvania in May 2016, with a Bachelor of Arts in [cognitive
-science](https://web.sas.upenn.edu/cogsci/program/) and a Bachelor of Applied Science in [computer
-and information science](https://www.cis.upenn.edu). At Penn, I served as head teaching assistant
-for [CIS 120](https://seas.upenn.edu/~cis120/current/), a rigorous introduction to functional
-programming and program design. I also helped found [Hack4Impact](https://hack4impact.org/), a
-student group and 501&#8288;(c)&#8288;(3) that designs and builds software for nonprofit
-organizations.
+[AirTag]: https://www.apple.com/airtag/
+[pencil]: https://support.apple.com/guide/ipad/draw-with-apple-pencil-ipadc55b6c7a/ipados
+[cc]: https://support.apple.com/guide/iphone/use-the-camera-control-iph0c397b154/ios
 
-You can get in touch with me by [email](mailto:{{ site.metadata.email }}) or on <a rel="me"
-href="https://sfba.social/@maxmcc">Mastodon</a>. If you’d like, you can also download a copy of [my
-résumé](/assets/McCarthy-Resume-201805.pdf), or check out some of my software projects on
-[GitHub](https://github.com/maxmcc/).
+[tnfey]: https://www.fastcompany.com/1672817/watch-apple-s-poetic-statement-on-its-design-process
+[paa]: https://developer.apple.com/news/?id=97dgimaa
+
+I graduated from the University of Pennsylvania with a Bachelor of Arts in [cognitive
+science][cogsci] and a Bachelor of Applied Science in [computer and information science][cis].
+
+[cogsci]: https://web.sas.upenn.edu/cogsci/program/
+[cis]: https://www.cis.upenn.edu
+
+You can get in touch with me by [email](mailto:{{ site.metadata.email }}) or using [Signal], and
+request to follow me on <a rel="me" href="https://sfba.social/@maxmcc">Mastodon</a> and [Bluesky].
+If you’d like, you can also download a copy of [my résumé](/assets/McCarthy-Resume-201805.pdf), or
+check out some of my software projects on [GitHub](https://github.com/maxmcc/).
+
+[Signal]: https://signal.me/#eu/OS-NXTYnme6g7WpFrp006fAn7cYTJ4nWj9rJpsFWpzXhqxWvnYVGQqfhiCYW1vyr
+[Bluesky]: https://bsky.app/profile/maxmcc.com
+
+✌️
+{: .text-lg .lg:mt-16 .-ml-1 }
