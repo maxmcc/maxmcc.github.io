@@ -15,6 +15,13 @@ Bridgetown.configure do |config|
   timezone "America/Los_Angeles"
   url "https://maxmcc.com"
 
+  collections do ||
+     recipes do ||
+       permalink "simple"
+       output true
+     end
+  end
+
   # You can use `init` to initialize various Bridgetown features or plugin gems.
   # For example, you can use the Dotenv gem to load environment variables from
   # `.env`. Just `bundle add dotenv` and then uncomment this:
