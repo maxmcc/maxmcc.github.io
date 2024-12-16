@@ -38,7 +38,7 @@ for this recipe.
 Makes enough pastry for 12–14 mince pies, with some left over.
 
 ### Ingredients
-- 400 grams European-style unsalted butter (such as Kerrygold), room temperature
+- 200 grams European-style unsalted butter (such as Kerrygold), room temperature
 - 160 grams icing sugar, sieved
 - pinch salt
 - 400 grams flour, sieved
