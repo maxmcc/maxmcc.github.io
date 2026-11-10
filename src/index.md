@@ -11,12 +11,13 @@ this interview with a former colleague.
 
 Much of my work isn’t yet public &mdash; or maybe never will be: somebody has to work on the
 [thousand no’s for every yes][tnfey]. Among products Apple _has_ shipped, I’ve contributed to
-interaction prototypes for [AirTag] in the FindMy app, [gestures on Apple Pencil][pencil], and the
-iPhone 16 [Camera Control][cc].
+interaction prototypes for [AirTag] in the FindMy app, [gestures on Apple Pencil][pencil], the
+iPhone 16 [Camera Control][cc], and touch on [MacBook Pro][mbp].
 
 [AirTag]: https://www.apple.com/airtag/
 [pencil]: https://support.apple.com/guide/ipad/draw-with-apple-pencil-ipadc55b6c7a/ipados
 [cc]: https://support.apple.com/guide/iphone/use-the-camera-control-iph0c397b154/ios
+[mbp]: https://support.apple.com/en-kw/guide/macbook-pro-proled-xdr/wv2xzgrweunx/2026/mac/27
 
 [tnfey]: https://www.fastcompany.com/1672817/watch-apple-s-poetic-statement-on-its-design-process
 [paa]: https://developer.apple.com/news/?id=97dgimaa
